@@ -7,7 +7,7 @@ BEGIN
     */
 -- Control de el parametro 'pDesde' por si viene igualado a cero
     
-	SELECT		prod.IdProducto,prov.Proveedor,cat.Categoria,prod.Producto,prod.Precio,prod.Stock,prod.EstadoProd,prod.Observaciones
+	SELECT		prod.IdProducto,prod.Producto,prov.Proveedor,cat.Categoria,prod.Precio,prod.Stock,prod.EstadoProd,prod.Observaciones
     FROM		productos prod
 				LEFT JOIN proveedores prov on prov.IdProveedor = prod.IdProveedor
                 LEFT JOIN categorias cat on cat.IdCategoria = prod.IdCategoria

@@ -107,3 +107,7 @@ INSERT INTO `personas` VALUES (9,'Ghandi','Mayatma',9604598,'2000-02-02',curdate
 INSERT INTO `usuarios` VALUES (8,'admin',null,'Tarde-Noche','81dc9bdb52d04dc20036dbd8313ed055');
 INSERT INTO `usuarios` VALUES (9,'Empleado1',null,'Mañana','81dc9bdb52d04dc20036dbd8313ed055');
 
+INSERT INTO `personas` VALUES (8,'Arroyo','Claudio',12345656,'2000-02-02',curdate(),'arroyo@gmail.com',1265456,'Monterio 100','Aguilares','Tucuman','H','A','Ninguni');
+INSERT INTO `personas` VALUES (9,'Ghandi','Mayatma',9604598,'2000-02-02',curdate(),'gandhi@gmail.com',4554,'Algerich 1200','Villa','Cordoba','M','A','Ninguno');
+
+
