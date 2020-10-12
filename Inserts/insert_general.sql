@@ -38,8 +38,8 @@ INSERT INTO `personas` VALUES (3,'Garcia','Francisco',16566,'2001-03-02',curdate
 
 LOCK TABLES `proveedores` WRITE;
 
-INSERT INTO `proveedores` VALUES (2,'Sin proveedor',0,'','A');
-INSERT INTO `proveedores` VALUES (3,'Distribuidora Elite',45679,'DElite@gmail.com','A');
+INSERT INTO `proveedores` VALUES (1,'Sin proveedor',0,'','A');
+INSERT INTO `proveedores` VALUES (2,'Distribuidora Elite',45679,'DElite@gmail.com','A');
 -- INSERT INTO `proveedores` VALUES (3,'Plusblelle',45646,'Plusblelle@gmail.com','A');
 -- INSERT INTO `proveedores` VALUES (4,'Pantene distribuidora',45879,'pantenecontacto@gmail.com','A');
 

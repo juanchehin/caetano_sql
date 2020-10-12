@@ -3,7 +3,7 @@ DELIMITER ;;
 CREATE DEFINER=`root`@`localhost` PROCEDURE `bsp_dame_nombres_proveedores`()
 BEGIN
 	/*
-	Permite listar los nombres proveedores dados de alta ordenadas por nombre.
+	Permite listar los nombres de los proveedores dados de alta ordenadas por nombre.
     */
 -- Control de el parametro 'pDesde' por si viene igualado a cero
     
